@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="principal">
+    <div class="icone-area">
+      <img src="images/icon-star.svg" alt="icone de uma estrela">
+    </div>
+    <section>
+      <h1>Como fizemos?</h1>
+      <p>
+        Por favor, deixe-nos saber como fizemos com o seu pedido de suporte. Todos os comentários são apreciados para nos ajudar a melhorar nossa oferta!
+      </p>
+    </section>
+    <form action="" class="input-area">
+      <div class="input" onclick="changeColor(this)">
+        <p class="text-input">1</p>
+      </div>
+      <div class="input" onclick="changeColor(this)">
+        <p class="text-input">2</p>
+      </div>
+      <div class="input" onclick="changeColor(this)">
+        <p class="text-input">3</p>
+      </div>
+      <div class="input" onclick="changeColor(this)">
+        <p class="text-input">4</p>
+      </div>
+      <div class="input" onclick="changeColor(this)">
+        <p class="text-input">5</p>
+      </div>
+    </form>
+    <a href="pages/page2.html" class="btn">CONFIRMAR</a>
+  </main>
+  <script>
+    function changeColor(element) {
+      if(element.style.backgroundColor === ""){
+        element.style.backgroundColor = "hsl(25, 97%, 53%)";
+      }else{
+        element.style.backgroundColor = "";
+      }
+    }
+  </script>
+</body>
+</html>

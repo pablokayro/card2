@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Overpass:wght@400;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Fraunces', serif;
+    font-family: 'Overpass', sans-serif;
+}
+
+body{
+    background-color: hsl(216, 12%, 8%);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.principal{
+    display: flex;
+    background-color: hsl(213, 19%, 18%);
+    height: 440px;
+    width: 100%;
+    max-width: 380px;
+    padding: 40px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 8px rgba(37, 37, 37, 0.356);
+    margin: 10px;
+    align-items: center;
+    flex-direction: column;
+}
+img{
+    height: 108px;
+    width: 162px;
+    margin-bottom: 30px;
+}
+div{
+    background-color:hsla(210, 1%, 47%, 0.169);
+    padding: 5px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 3px hsla(207, 6%, 70%, 0.186);
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+div p{
+    color: hsl(25, 97%, 53%);
+    font-weight: normal;
+}
+h1{
+    font-weight: bold;
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+p{
+    color:  hsl(217, 12%, 63%);
+    text-align: center;
+    line-height: 1.5rem;
+}
